@@ -11,9 +11,12 @@ const config: Config = {
       'soft-grey': '#EAEAE6',
       'dark-grey': '#1E1E21',
       'mid-grey': '#818181',
-      'soft-blue':'##3BB4CB',
+      'soft-blue':'#3BB4CB',
     },
     extend: {
+      rotate: {
+        '14': '14.333deg',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
