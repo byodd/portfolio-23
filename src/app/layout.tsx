@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='bg-soft-grey'>
       <body className='box-border'>{children}</body>
     </html>
   )
