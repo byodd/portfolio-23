@@ -1,15 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
-import Ellipse from '../../../public/footer-ellipse.png'
+import Ellipse from "../../../public/footer-ellipse.png";
 
 export default function ContactFooter() {
   return (
     <div className="bg-darker-grey w-full min-h-screen text-white flex flex-col z-0">
-        <Image src={Ellipse} alt="ellipse" className="-mt-[70%]"></Image>
+      <Image src={Ellipse} alt="ellipse" className="-mt-[70%]"></Image>
       <div className="font-semibold text-3xl pl-24 flex flex-col justify-center gap-11">
         <div className="my-36">
           <Link
-            className="border rounded-full px-12 pt-3.5 pb-4 hover:bg-white hover:text-dark-grey transitio"
+            className="border rounded-full px-12 pt-3.5 pb-4 transition duration-300 hover:bg-white hover:text-dark-grey transitio"
             href="mailto:gatta.ba@icloud.com"
           >
             gatta.ba@icloud.com
