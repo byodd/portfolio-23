@@ -7,7 +7,7 @@ export default function ProjectCard(project: Project) {
   let name = project.name.length > 0 ? project.name : "Projet";
   let role = project.role.length > 0 ? project.role : "Contributor";
   let techStack = project.techStack.length > 0 ? project.techStack : "Computer";
-  let link = "/projects/" + project.id;
+  let link = "/project/" + project.id;
 
   return (
     <div className="w-[504px] h-[600px]">
