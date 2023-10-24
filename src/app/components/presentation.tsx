@@ -1,11 +1,10 @@
-"use client";
 import Image from "next/image";
 import Portrait from "../../../public/gattapicture.png";
 import Arrow from "../../../public/south-arrow.png";
 
 export default function Presentation() {
   return (
-    <div className="w-full h-screen flex flex-colw">
+    <div className="w-full h-screen flex flex-col">
       <Image
         className="w-1/3 absolute top-10 right-10 z-0"
         src={Portrait}
