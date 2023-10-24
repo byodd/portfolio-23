@@ -6,7 +6,7 @@ import Ellipse from "../../../public/footer-ellipse.png";
 
 export default function ContactFooter() {
   return (
-    <div className="bg-darker-grey w-full min-h-screen text-white flex flex-col z-0 overflow-hidden">
+    <div id="contact" className="bg-darker-grey w-full min-h-screen text-white flex flex-col z-0 overflow-hidden">
       <Image src={Ellipse} alt="ellipse" className="-mt-[70%]"></Image>
       <div className="font-semibold text-3xl pl-24 flex flex-col justify-center gap-11">
         <div className="my-36">

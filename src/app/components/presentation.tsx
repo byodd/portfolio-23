@@ -39,7 +39,7 @@ export default function Presentation() {
               ? { WebkitMaskImage: visibleMask, maskImage: visibleMask }
               : { WebkitMaskImage: hiddenMask, maskImage: hiddenMask }
           }
-          transition={{ duration: 1, delay: 1 }}
+          transition={{ duration: 1, delay: 0.4 }}
           className="px-5 pb-1 bg-soft-blue w-44 flex justify-center -rotate-14 -mb-7 -ml-16"
         >
           

@@ -40,7 +40,7 @@ export default function Header() {
           Projects
         </Link>
         <Link
-          href="/contact"
+          href="#contact"
           className={
             currentRoute === "/contact" ? "text-dark-grey" : "text-mid-grey"
           }
