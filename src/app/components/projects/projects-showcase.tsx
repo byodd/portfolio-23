@@ -3,7 +3,7 @@ import ProjectsGallery from './projects-gallery'
 
 export default function ProjectsShowcase(){
     return (
-        <div>
+        <div className='z-10'>
             <ProjectsBanner/>
             <ProjectsGallery/>
         </div>
