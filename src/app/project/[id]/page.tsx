@@ -13,7 +13,7 @@ export default function Page({ params }: { params: { id: string } }) {
 
   return (
     <div>
-        <Header/>
+      <Header />
       <h1>{project.name}</h1>
       <p>{project.description}</p>
       <p>Rôle: {project.role}</p>
@@ -25,6 +25,7 @@ export default function Page({ params }: { params: { id: string } }) {
           <p>{image.description}</p>
         </div>
       ))}
+      <ContactFooter />
     </div>
   );
 }
