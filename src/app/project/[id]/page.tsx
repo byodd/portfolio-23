@@ -67,12 +67,12 @@ export default function Page({ params }: { params: { id: string } }) {
         <div className="overflow-hidden flex justify-end gap-5 p-5 ml-auto mb-12">
           <LinkButton
             name="Visit website"
-            link={project.visitLink || "/"}
+            link={project.visitLink || project.repoLink || ""}
             isMain={true}
           />
           <LinkButton
             name="Github repository"
-            link={project.repoLink || "/"}
+            link={project.repoLink || ""}
             isMain={false}
           />
         </div>
