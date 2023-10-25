@@ -64,7 +64,7 @@ export default function Page({ params }: { params: { id: string } }) {
             )}
           </div>
         </div>
-        <div className="overflow-hidden flex justify-end gap-5 p-5 ml-auto mb-3">
+        <div className="overflow-hidden flex justify-end gap-5 p-5 ml-auto mb-12">
           <LinkButton
             name="Visit website"
             link={project.visitLink || "/"}

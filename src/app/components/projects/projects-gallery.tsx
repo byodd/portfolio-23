@@ -31,7 +31,7 @@ export default function ProjetsGallery() {
   const projects = Projects();
   const [ref, inView] = useInView({
     threshold: 0,
-    rootMargin: "200px 0px",
+    rootMargin: "800px 0px",
     triggerOnce: true,
   });
   
