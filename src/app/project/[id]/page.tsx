@@ -85,8 +85,8 @@ export default function Page({ params }: { params: { id: string } }) {
                 <Image
                   src={image.url}
                   alt="img"
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
             );

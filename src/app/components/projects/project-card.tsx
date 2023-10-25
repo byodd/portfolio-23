@@ -16,8 +16,8 @@ export default function ProjectCard(project: Project) {
           <Image
             src={coverUrl}
             alt="project-cover"
-            fill={true}
-            style={{objectFit:"cover"}}
+            fill
+            className="object-cover"
           ></Image>
         </div>
         <div className="border-b-2 border-light-grey py-5">

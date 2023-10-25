@@ -43,18 +43,11 @@ export default function ProjetsGallery() {
       animate={inView ? "visible" : "hidden"}
       ref={ref}
     >
-      <motion.li className="item w-[504px] h-[600px]" whileHover={{ scale: 1.1 }} variants={item}>
-        <ProjectCard {...projects[0]}></ProjectCard>{" "}
-      </motion.li>
-      <motion.li className="item w-[504px] h-[600px]" whileHover={{ scale: 1.1 }} variants={item}>
-        <ProjectCard {...projects[0]}></ProjectCard>
-      </motion.li>
-      <motion.li className="item w-[504px] h-[600px]" whileHover={{ scale: 1.1 }} variants={item}>
-        <ProjectCard {...projects[1]}></ProjectCard>
-      </motion.li>
-      <motion.li className="item w-[504px] h-[600px]" whileHover={{ scale: 1.1 }} variants={item}>
-        <ProjectCard {...projects[1]}></ProjectCard>
-      </motion.li>
+      {projects.map((project, index) => (
+        <motion.li key={index} className="item w-[504px] h-[600px]" whileHover={{ scale: 1.1 }} variants={item}>
+          <ProjectCard {...project}></ProjectCard>
+        </motion.li>
+      ))}
     </motion.ul>
   );
 }
