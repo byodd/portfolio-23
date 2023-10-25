@@ -37,22 +37,22 @@ export default function ProjetsGallery() {
   
   return (
     <motion.ul
-      className="flex flex-row pt-20 gap-20 justify-center flex-wrap"
+      className="flex flex-row pt-20 mb-10 gap-20 justify-center flex-wrap"
       variants={container}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       ref={ref}
     >
-      <motion.li className="item w-[504px] h-[600px]" variants={item}>
+      <motion.li className="item w-[504px] h-[600px]" whileHover={{ scale: 1.1 }} variants={item}>
         <ProjectCard {...projects[0]}></ProjectCard>{" "}
       </motion.li>
-      <motion.li className="item w-[504px] h-[600px]" variants={item}>
+      <motion.li className="item w-[504px] h-[600px]" whileHover={{ scale: 1.1 }} variants={item}>
         <ProjectCard {...projects[0]}></ProjectCard>
       </motion.li>
-      <motion.li className="item w-[504px] h-[600px]" variants={item}>
+      <motion.li className="item w-[504px] h-[600px]" whileHover={{ scale: 1.1 }} variants={item}>
         <ProjectCard {...projects[1]}></ProjectCard>
       </motion.li>
-      <motion.li className="item w-[504px] h-[600px]" variants={item}>
+      <motion.li className="item w-[504px] h-[600px]" whileHover={{ scale: 1.1 }} variants={item}>
         <ProjectCard {...projects[1]}></ProjectCard>
       </motion.li>
     </motion.ul>

@@ -38,7 +38,7 @@ export default function About() {
       </span>
       <div className="font-medium text-2xl border-l-2 border-dark-grey p-1 pl-16 mr-24">
         <motion.ul
-          className="flex flex-row flex-wrap"
+          className="flex flex-col flex-wrap"
           variants={container}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}

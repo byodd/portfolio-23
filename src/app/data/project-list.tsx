@@ -3,20 +3,25 @@ import { Project } from "../utils/project";
 export default function ProjectList() {
   let projects: Project[] = [
     {
-      id: "zoba",
-      name: "Projet A",
-      description: "Un projet innovant sur le Web",
-      role: "Développeur Frontend",
-      techStack: "React, TypeScript, GraphQL",
-      collaborators: "Alice, Bob",
+      id: "hostin-agency",
+      name: "Hostin Agency",
+      description: "Hostin Agency is a site that aims to facilitate the search for tenants for luxury real estate. The aim is to use popular platforms such as Booking and Airbnb to maximize property visibility and ensure optimal occupancy.",
+      role: "Design, Fullstack Development",
+      techStack: "Html, Css, Javascript",
+      visitLink: "https://hostin-agency.vercel.app/",
+      repoLink: "https://github.com/gattacode/hostin-agency",
       images: [
         {
-          url: "/gattapicture.png",
+          url: "/hostin-agency/ha1.png",
           description: "Capture d'écran de la page d'accueil",
         },
         {
-          url: "/errorbot.png",
-          description: "Vue mobile du tableau de bord",
+          url: "/hostin-agency/ha2.png",
+          description: "Vue",
+        },
+        {
+          url: "/hostin-agency/ha3.png",
+          description: "Vue",
         },
       ],
     },

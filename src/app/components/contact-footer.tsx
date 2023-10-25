@@ -6,21 +6,27 @@ import Ellipse from "../../../public/footer-ellipse.png";
 
 export default function ContactFooter() {
   return (
-    <div id="contact" className="bg-darker-grey w-full min-h-screen text-white flex flex-col z-0 overflow-hidden">
+    <div
+      id="contact"
+      className="bg-darker-grey w-full min-h-screen text-white flex flex-col z-0 overflow-hidden"
+    >
       <Image src={Ellipse} alt="ellipse" className="-mt-[70%]"></Image>
       <div className="font-semibold text-3xl pl-24 flex flex-col justify-center gap-11">
         <div className="my-36">
-        <motion.div
-      className="box"
-      whileHover={{ scale: 1.02 }}
-      transition={{ type: "spring", stiffness: 400, damping: 7 }}>
-          <Link
-            className="border rounded-full px-12 pt-3.5 pb-4 duration-300 hover:bg-white hover:text-dark-grey"
-            href="mailto:gattacode@gmail.com"
+          <div className="overflow-hidden flex justify-start p-10 ml-auto">
+          <motion.div
+            className="flex justify-center"
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 500, damping: 10 }}
           >
-            gattacode@gmail.com
-          </Link>
+            <Link
+              className="box border rounded-full flex flex-row px-12 pt-3.5 pb-4 duration-300 hover:bg-white hover:text-dark-grey"
+              href="mailto:gatta.code@gmail.com"
+            >
+              gatta.code@gmail.com
+            </Link>
           </motion.div>
+          </div>
         </div>
         <div>
           <span className="text-base">Quick Links</span>
@@ -66,7 +72,7 @@ export default function ContactFooter() {
         <div>
           <span className="text-base">Extras</span>
           <div className="flex flex-row gap-3 text-3xl mb-36">
-            <Link href="/" className="hover:underline">
+            <Link href="https://drive.google.com/file/d/1Ws9VBPS50wVBEFkEbvx9OTVMC8SDquwV/view?usp=sharing" className="hover:underline">
               Resume
             </Link>
           </div>

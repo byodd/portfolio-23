@@ -9,5 +9,7 @@ export interface Project {
   description: string;
   role: string;
   collaborators?: string;
+  visitLink?: string;
+  repoLink?: string;
   techStack: string;
 }

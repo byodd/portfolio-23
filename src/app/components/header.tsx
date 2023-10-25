@@ -27,14 +27,14 @@ export default function Header() {
       <div className="flex ml-20 gap-16">
         <Link
           href="/"
-          className={currentRoute === "/" ? "text-dark-grey" : "text-mid-grey"}
+          className={currentRoute === "/" ? "text-dark-grey" : "text-mid-grey hover:text-dark-grey"}
         >
           Home
         </Link>
         <Link
           href="/projects"
           className={
-            currentRoute === "/projects" ? "text-dark-grey" : "text-mid-grey"
+            currentRoute === "/projects" ? "text-dark-grey" : "text-mid-grey hover:text-dark-grey"
           }
         >
           Projects
@@ -42,7 +42,7 @@ export default function Header() {
         <Link
           href="#contact"
           className={
-            currentRoute === "/contact" ? "text-dark-grey" : "text-mid-grey"
+            currentRoute === "/contact" ? "text-dark-grey" : "text-mid-grey hover:text-dark-grey"
           }
         >
           Contact

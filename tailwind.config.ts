@@ -14,7 +14,8 @@ const config: Config = {
         'dark-grey': '#1E1E21',
         'darker-grey': '#1E1E1E',
         'mid-grey': '#818181',
-        'soft-blue':'#3BB4CB',
+        'soft-blue': '#3BB4CB',
+        'rv-dark-grey': '#E1E1DE',
       },
       rotate: {
         '14': '14.333deg',
