@@ -12,7 +12,7 @@ export default function ContactFooter() {
     >
       <Image src={Ellipse} alt="ellipse" className="-mt-[70%]"></Image>
       <div className="font-semibold text-3xl pl-24 flex flex-col justify-center gap-11">
-        <div className="my-36">
+        <div className=" my-20">
           <div className="overflow-hidden flex justify-start p-10 ml-auto">
           <motion.div
             className="flex justify-center"
