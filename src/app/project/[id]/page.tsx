@@ -53,9 +53,9 @@ export default function Page({ params }: { params: { id: string } }) {
         }
       })}
       <div className="px-10 text-dark-grey">
-        <div className="p-20 pt-10 flex flex-col">
-          <span className="text-8xl mb-6 font-medium ">{project.name}</span>
-          <div className="flex w-full gap-20">
+        <div className="md:p-20 pt-10 flex flex-col">
+          <span className=" text-2xl md:text-8xl mb-6 font-medium ">{project.name}</span>
+          <div className="flex flex-col md:flex-row w-full gap-10 md:gap-20">
             <Info title="Description" description={project.description} />
             <Info title="Role in project" description={project.role} />
             <Info title="Technical sheet" description={project.techStack} />
@@ -64,7 +64,7 @@ export default function Page({ params }: { params: { id: string } }) {
             )}
           </div>
         </div>
-        <div className="overflow-hidden flex justify-end gap-5 p-5 ml-auto mb-12">
+        <div className="overflow-hidden flex flex-col items-center md:flex-row whitespace-nowrap justify-center md:justify-end gap-5 p-5 ml-auto mb-12">
           <LinkButton
             name="Visit website"
             link={project.visitLink || project.repoLink || ""}
