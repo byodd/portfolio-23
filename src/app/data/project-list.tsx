@@ -10,6 +10,7 @@ export default function ProjectList() {
       techStack: "Php, Tailwind",
       repoLink: "https://github.com/gattacode/unishare",
       collaborators: "Abdel 'TawahinBeirut' Gueribi",
+      color: "#febf92",
       images: [
         {
           url: "/unishare/img1.png",
@@ -29,6 +30,7 @@ export default function ProjectList() {
       techStack: "React, Sass",
       visitLink: "https://the-art-of.vercel.app/",
       repoLink: "https://github.com/gattacode/the-art-of-app",
+      color: "#dceff4",
       images: [
         {
           url: "/the-art-of/img1.png",
@@ -46,6 +48,7 @@ export default function ProjectList() {
       description: "🚧 Under development: The Suite is an all-in-one online solution for time management and personal organization.",
       role: "Design, Fullstack Development",
       techStack: "Next, Tailwind",
+      color: "#666666",
       images: [
         {
           url: "/the-suite/img1.png",
@@ -64,6 +67,7 @@ export default function ProjectList() {
       role: "Design, Software Development",
       techStack: "Java",
       repoLink: "https://github.com/gattacode/medipath",
+      color: "#f0a7a8",
       images: [
         {
           url: "/medipath/m1.png",
@@ -83,6 +87,7 @@ export default function ProjectList() {
       techStack: "Html, Css, Javascript",
       visitLink: "https://hostin-agency.vercel.app/",
       repoLink: "https://github.com/gattacode/hostin-agency",
+      color: "#f3f0e6",
       images: [
         {
           url: "/hostin-agency/ha1.png",
@@ -106,6 +111,7 @@ export default function ProjectList() {
       techStack: "React, Sass, Node",
       visitLink: "https://agora-videos.vercel.app/",
       repoLink: "https://github.com/gattacode/agora",
+      color: "#c6f0f8",
       images: [
         {
           url: "/agora/img1.png",
@@ -124,6 +130,7 @@ export default function ProjectList() {
       role: "Design, Fullstack Development",
       techStack: "React, Node, Tailwind",
       collaborators: "Felmon 'Filex' Tewelde, Sami Abbas, Abdel 'TawahinBeirut' Gueribi",
+      color: "#ce77f4",
       images: [
         {
           url: "/unifree/img1.png",
@@ -143,6 +150,7 @@ export default function ProjectList() {
       techStack: "Html, Css",
       visitLink: "https://crous-kebab.vercel.app/",
       repoLink: "https://github.com/gattacode/CrousKebab",
+      color: "#f8dc7f",
       images: [
         {
           url: "/crous-kebab/ck1.png",

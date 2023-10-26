@@ -2,12 +2,16 @@
 import Projects from "../../data/project-list";
 import Image from "next/image";
 import Link from "next/link";
-import Header from "../../components/header";
-import Info from "../../components/project/info";
+import Header from "@/app/components/header";
+import Info from "@/app/components/project/info";
 import LinkButton from "../../components/project/link-button";
-import ContactFooter from "../../components/contact-footer";
+import ContactFooter from "@/app/components/contact-footer";
 import Arrow from "../../../../public/north_east.png";
 import { motion } from "framer-motion";
+import AnimWrapper from "@/app/components/anim-wrapper";
+
+
+
 
 export default function Page({ params }: { params: { id: string } }) {
   const projects = Projects();
@@ -15,10 +19,12 @@ export default function Page({ params }: { params: { id: string } }) {
 
   if (!project) {
     return <div>Projet introuvable!</div>;
+  } else {
+    var transitionColor = project.color;
   }
 
   return (
-    <div>
+    <AnimWrapper transitionColor={transitionColor}>
       <Header />
       <div className="overflow-hidden absolute flex justify-end gap-5 p-5 ml-auto mb-3 top-24 right-3 z-10">
         <motion.div
@@ -99,6 +105,6 @@ export default function Page({ params }: { params: { id: string } }) {
         })}
       </div>
       <ContactFooter />
-    </div>
+    </AnimWrapper>
   );
 }
