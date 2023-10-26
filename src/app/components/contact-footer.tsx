@@ -80,7 +80,7 @@ export default function ContactFooter() {
         <div>
           <span className="text-base">Extras</span>
           <div className="flex flex-row gap-3 text-xl md:text-3xl mb-36">
-            <Link
+          <Link
               target={"_blank"}
               rel={"noopener noreferrer"}
               href="https://drive.google.com/file/d/1Ws9VBPS50wVBEFkEbvx9OTVMC8SDquwV/view?usp=sharing"
@@ -88,6 +88,17 @@ export default function ContactFooter() {
             >
               Resume
             </Link>
+            -
+            <Link
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+              href="https://mail.google.com/mail/u/0/?fs=1&to=gatta.code@gmail.com&tf=cm"
+              className="hover:underline"
+            >
+              Send mail on gmail
+            </Link>
+
+            
           </div>
         </div>
       </div>
