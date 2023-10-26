@@ -5,7 +5,7 @@ interface ILayoutProps {
   children: ReactNode;
 }
 
-const AnimWrapper: FC<ILayoutProps> = ({ children }) => {
+const AnimWrapper: React.FC<ILayoutProps> = ({ children }) => {
   return (
     <AnimatePresence mode={"wait"}>
       <motion.div
