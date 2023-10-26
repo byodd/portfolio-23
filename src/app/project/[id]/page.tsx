@@ -24,7 +24,7 @@ export default function Page({ params }: { params: { id: string } }) {
   }
 
   return (
-    <AnimWrapper transitionColor={transitionColor}>
+    <AnimWrapper>
       <Header />
       <div className="overflow-hidden absolute flex justify-end gap-5 p-5 ml-auto mb-3 top-24 right-3 z-10">
         <motion.div
