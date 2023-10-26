@@ -18,6 +18,7 @@ export default function ProjectCard(project: Project) {
             alt="project-cover"
             fill
             className="object-cover"
+            quality={100}
           ></Image>
         </div>
         <div className="border-b-2 border-light-grey py-5">

@@ -27,7 +27,8 @@ export default function Page({ params }: { params: { id: string } }) {
           transition={{ type: "spring", stiffness: 500, damping: 10 }}
         >
           <Link
-            className={"box w-full flex flex-row items-center border border-dark-grey font-semibold rounded-full p-4 rotate-180 pt-3.5 pb-4 hover:bg-rv-dark-grey hover:text-black hover:invert"
+            className={
+              "box w-full flex flex-row items-center border border-dark-grey font-semibold rounded-full p-4 rotate-180 pt-3.5 pb-4 hover:bg-rv-dark-grey hover:text-black hover:invert"
             }
             href={"/projects"}
           >
@@ -54,7 +55,9 @@ export default function Page({ params }: { params: { id: string } }) {
       })}
       <div className="px-10 text-dark-grey">
         <div className="md:p-20 pt-10 flex flex-col">
-          <span className=" text-2xl md:text-8xl mb-6 font-medium ">{project.name}</span>
+          <span className=" text-2xl md:text-8xl mb-6 font-medium ">
+            {project.name}
+          </span>
           <div className="flex flex-col md:flex-row w-full gap-10 md:gap-20">
             <Info title="Description" description={project.description} />
             <Info title="Role in project" description={project.role} />

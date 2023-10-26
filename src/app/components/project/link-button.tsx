@@ -18,6 +18,8 @@ export default function LinkButton({ name, link, isMain }: LinkProps) {
       transition={{ type: "spring", stiffness: 500, damping: 10 }}
     >
       <Link
+        target={"_blank"}
+        rel={"noopener noreferrer"}
         className={`box w-full flex flex-row ${
           isMain
             ? "border rounded-full font-semibold pl-12 pr-6 pt-3.5 pb-4  bg-rv-dark-grey text-black invert"
