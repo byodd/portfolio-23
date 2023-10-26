@@ -1,6 +1,7 @@
 "use client";
 import ProjectCard from "./project-card";
 import Projects from "../../data/project-list";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -28,10 +29,25 @@ const item = {
 };
 
 export default function ProjetsGallery() {
+  // handle animation on small screens
+  const [screenWidth, setScreenWidth] = useState<number | null>(null);
+
+  useEffect(() => {
+    setScreenWidth(window.innerWidth);
+
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   const projects = Projects();
   const [ref, inView] = useInView({
     threshold: 0,
-    rootMargin: "800px 0px",
+    rootMargin: (screenWidth && screenWidth > 870) ? "800px 0px" : "8000px 0px",
     triggerOnce: true,
   });
   

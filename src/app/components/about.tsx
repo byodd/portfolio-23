@@ -1,4 +1,5 @@
 "use client";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -26,9 +27,25 @@ const item = {
 };
 
 export default function About() {
+  // handle animation on small screens
+  const [screenWidth, setScreenWidth] = useState<number | null>(null);
+
+  useEffect(() => {
+    setScreenWidth(window.innerWidth);
+
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const [ref, inView] = useInView({
     threshold: 0,
-    rootMargin: "50px 0px",
+    rootMargin: (screenWidth && screenWidth > 870) ? "50px 0px" : "0px 0px",
     triggerOnce: true,
   });
   return (
