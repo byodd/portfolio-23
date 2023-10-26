@@ -10,7 +10,7 @@ export default function ProjectCard(project: Project) {
   let link = "/project/" + project.id;
 
   return (
-    <div className="max-w-[504px] h-[600px]">
+    <div className="max-w-[504px] h-[600px] p-6 md:p-0">
       <Link href={link}>
         <div className="h-[462px] relative">
           <Image
