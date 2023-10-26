@@ -49,11 +49,11 @@ export default function About() {
     triggerOnce: true,
   });
   return (
-    <div className="w-full h-full mt-16 mb-64 flex flex-row p-8">
-      <span className="font-semibold text-3xl whitespace-nowrap mx-24">
+    <div className="w-full h-full mt-16 mb-64 flex flex-col md:flex-row p-8">
+      <span className="font-semibold text-3xl whitespace-nowrap mx-24 pb-6 md:pb-0">
         About me
       </span>
-      <div className="font-medium text-2xl border-l-2 border-dark-grey p-1 pl-16 mr-24">
+      <div className="font-medium text-2xl overflow-hidden md:border-l-2 md:border-dark-grey p-1 md:pl-16 md:mr-24">
         <motion.ul
           className="flex flex-col flex-wrap"
           variants={container}

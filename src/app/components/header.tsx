@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export default function Header() {
   const currentRoute = usePathname();
   return (
-    <div className="w-1/3 text-xl font-semibold flex items-center pt-4 pl-11 mr-auto">
+    <div className="w-full pl-6 md:w-1/3 text-xl font-semibold flex items-center pt-4 md:pl-11 md:mr-auto">
       <Link href="/">
         <motion.div
           className="container"
@@ -24,7 +24,7 @@ export default function Header() {
           <Image src={Logo} className="w-12" alt="logo" />{" "}
         </motion.div>
       </Link>
-      <div className="flex ml-20 gap-16">
+      <div className="flex pl-5 md:ml-20 gap-8">
         <Link
           href="/"
           className={currentRoute === "/" ? "text-dark-grey" : "text-mid-grey hover:text-dark-grey"}
