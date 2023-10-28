@@ -62,7 +62,7 @@ export default function About() {
           ref={ref}
         >
           <motion.li variants={item}>
-            Starting my tech journey with a knack for design,I dove into coding
+            Starting my tech journey with a knack for design, I dove into coding
           </motion.li>
           <motion.li variants={item}>
             {" "}

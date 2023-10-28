@@ -47,7 +47,7 @@ export default function ProjetsGallery() {
   const projects = Projects();
   const [ref, inView] = useInView({
     threshold: 0,
-    rootMargin: (screenWidth && screenWidth > 870) ? "800px 0px" : "8000px 0px",
+    rootMargin: (screenWidth && screenWidth > 870) ? "900px 0px" : "8000px 0px",
     triggerOnce: true,
   });
   

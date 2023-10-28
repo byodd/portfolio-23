@@ -10,9 +10,6 @@ import Arrow from "../../../../public/north_east.png";
 import { motion } from "framer-motion";
 import AnimWrapper from "@/app/components/anim-wrapper";
 
-
-
-
 export default function Page({ params }: { params: { id: string } }) {
   const projects = Projects();
   const project = projects.find((p) => p.id === params.id);
