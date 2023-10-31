@@ -8,7 +8,7 @@ export default function ProjectList() {
       description: "🎓 Unishare is a platform tailored for the community of Lyon 1 University. It provides students, faculty, and alumni with a space to publish and comment on articles.",
       role: "Design, Frontend Development",
       techStack: "Php, Tailwind",
-      visitLink:"https://unifree38.000webhostapp.com/Pages/Feed.php"
+      visitLink:"https://unifree38.000webhostapp.com/Pages/Feed.php",
       repoLink: "https://github.com/gattacode/unishare",
       collaborators: "Abdel 'TawahinBeirut' Gueribi",
       color: "#febf92",
