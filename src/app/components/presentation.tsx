@@ -46,7 +46,7 @@ export default function Presentation() {
             <p className="text-base md:text-3xl text-soft-grey">Aspiring</p>
         </motion.div>
         <p className="whitespace-nowrap">Software Developer</p>
-        <p className="text-xl md:text-4xl">(fullstack capable)</p>
+        <p className="text-lg md:text-4xl">(fullstack capable)</p>
       </div>
     </div>
   );
