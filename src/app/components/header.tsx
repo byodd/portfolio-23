@@ -27,22 +27,40 @@ export default function Header() {
       <div className="flex pl-5 md:ml-20 gap-8">
         <Link
           href="/"
-          className={currentRoute === "/" ? "text-dark-grey" : "text-mid-grey hover:text-dark-grey"}
+          className={
+            currentRoute === "/"
+              ? "text-dark-grey"
+              : "text-mid-grey hover:text-dark-grey"
+          }
         >
           Home
         </Link>
         <Link
           href="/projects"
           className={
-            currentRoute === "/projects" ? "text-dark-grey" : "text-mid-grey hover:text-dark-grey"
+            currentRoute === "/projects"
+              ? "text-dark-grey"
+              : "text-mid-grey hover:text-dark-grey"
           }
         >
           Projects
         </Link>
         <Link
+          href="/aboutme"
+          className={
+            currentRoute === "/aboutme"
+              ? "text-dark-grey  whitespace-nowrap"
+              : "text-mid-grey hover:text-dark-grey whitespace-nowrap"
+          }
+        >
+          About Me
+        </Link>
+        <Link
           href="#contact"
           className={
-            currentRoute === "/contact" ? "text-dark-grey" : "text-mid-grey hover:text-dark-grey"
+            currentRoute === "/contact"
+              ? "text-dark-grey"
+              : "text-mid-grey hover:text-dark-grey"
           }
         >
           Contact
