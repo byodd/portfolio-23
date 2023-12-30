@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Portrait from "../../../public/gattapicture.png";
 import Arrow from "../../../public/south-arrow.png";
+import Link from "next/link";
 
 // mask for sticker animation
 const hiddenMask = `repeating-linear-gradient(to left, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 600px, rgba(0,0,0,1) 600px, rgba(0,0,0,1) 600px)`;
@@ -42,11 +43,26 @@ export default function Presentation() {
           transition={{ duration: 1, delay: 0.4 }}
           className="px-5 pb-1 bg-soft-blue w-20 md:w-44 flex justify-center -rotate-14 -mb-5 md:-mb-7 -ml-12 md:-ml-16"
         >
-          
-            <p className="text-base md:text-3xl text-soft-grey">Aspiring</p>
+          <p className="text-base md:text-3xl text-soft-grey">Aspiring</p>
         </motion.div>
         <p className="whitespace-nowrap">Software Developer</p>
         <p className="text-lg md:text-4xl">(fullstack capable)</p>
+        <div className="overflow-hidden flex justify-start py-3 pl-2">
+          <motion.div
+            className="flex justify-center "
+            whileHover={{ scale: 1.05 }}
+            transition={{ type: "spring", stiffness: 500, damping: 10 }}
+          >
+            <Link
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+              className="box border border-dark-grey hover:border-white rounded-full text-xs md:text-base flex flex-row px-4 md:px-8 pt-3.5 mt-6 pb-4 duration-300 hover:bg-white hover:text-dark-grey"
+              href="https://drive.google.com/file/d/1Ws9VBPS50wVBEFkEbvx9OTVMC8SDquwV/view?usp=sharing"
+            >
+              See resume
+            </Link>
+          </motion.div>
+        </div>
       </div>
     </div>
   );
