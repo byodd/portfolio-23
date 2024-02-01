@@ -127,9 +127,11 @@ export default function ProjectList() {
     {
       id: "unifree",
       name: "Unifree",
-      description: "🚧 Under development: Unifree is a free online university.",
+      description: "🎓 Unifree is a free online university. Anyone can learn and anyone can share his knowledge to the rest of the community.",
       role: "Design, Fullstack Development",
       techStack: "React, Node, Tailwind",
+      visitLink: "https://unifree.vercel.app/",
+      repoLink: "https://forge.univ-lyon1.fr/p2203929/sae-s3-s4",
       collaborators: "Felmon 'Filex' Tewelde, Sami Abbas, Abdel 'TawahinBeirut' Gueribi",
       color: "#ce77f4",
       images: [
