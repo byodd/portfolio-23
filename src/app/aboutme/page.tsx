@@ -158,12 +158,14 @@ export default function Projects() {
                   <li>Node.js</li>
                   <li>Express.js</li>
                   <li>Next.js</li>
+                  <li>Vue.js</li>
                   <li>Tailwind CSS</li>
                   <li>Framer motion</li>
                 </ul>
                 <ul className="font-normal text-lg [&>*]:pb-2 [&>*]:ml-6 list-disc">
                   <li>MongoDB</li>
                   <li>PostgreSQL</li>
+                  <li>Kotlin</li>
                   <li>PowerBi</li>
                   <li>Adobe Photoshop</li>
                   <li>Figma</li>
