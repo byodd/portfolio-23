@@ -74,7 +74,7 @@ export default function Projects() {
                 editing and digital art. Among these, it was coding that
                 captivated me the most
                 <br />I love turning ideas into sleek, user-friendly{" "}
-                <b>websites</b> and <b>applications</b>. My interests aren't
+                <b>websites</b> and <b>applications</b>. My interests aren&apos;t
                 limited to web development, I enjoy diving into every aspect of{" "}
                 <b>computer science</b>. Working on <b>challenging projects</b>{" "}
                 with a positive team in a great environment is what I enjoy
