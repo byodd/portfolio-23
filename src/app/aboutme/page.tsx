@@ -71,13 +71,14 @@ export default function Projects() {
                 I&apos;m a <b>CS student</b> who&apos;s always loved creating
                 things. Ever since I got my first computer, I&apos;ve explored
                 everything from 3D modeling and game development to video
-                editing and digital art. But when But it was coding that really
-                stood out as my favorite. <br />I love turning ideas into sleek,
-                user-friendly <b>websites</b> and <b>applications</b>. I&apos;m
-                not just about web development work, though — I enjoy diving
-                into every aspect of <b>computer science</b>. Working on{" "}
-                <b>challenging projects</b> with a positive team in a great
-                environment is what I enjoy most.
+                editing and digital art. Among these, it was coding that
+                captivated me the most
+                <br />I love turning ideas into sleek, user-friendly{" "}
+                <b>websites</b> and <b>applications</b>. My interests aren't
+                limited to web development, I enjoy diving into every aspect of{" "}
+                <b>computer science</b>. Working on <b>challenging projects</b>{" "}
+                with a positive team in a great environment is what I enjoy
+                most.
               </motion.li>
             </motion.ul>
           </div>
@@ -103,12 +104,11 @@ export default function Projects() {
                 <b>Claude Bernard University Lyon 1</b>
                 . <br />I devote considerable time to exploring a wide range of
                 topics outside of class, be it related to computer science or
-                spanning diverse fields from <b>marketing</b> to{" "}
-                <b>philosophy</b>. I continue to engage in <b>art</b>,
-                channeling my creativity through drawing, writing, and design
-                creation. <br /> This broad spectrum of interests not only
-                enriches my understanding but also complements my studies in
-                computer science.
+                spanning diverse fields from <b>marketing</b> to philosophy. I
+                continue to engage in <b>art</b>, channeling my creativity
+                through drawing, writing, and design creation. <br /> This broad
+                spectrum of interests not only enriches my understanding but
+                also complements my studies in computer science.
               </motion.li>
             </motion.ul>
           </div>
@@ -176,14 +176,15 @@ export default function Projects() {
             </motion.ul>
           </div>
         </div>
-            <div className="overflow-hidden flex flex-col items-center md:flex-row whitespace-nowrap justify-center md:justify-end gap-5 p-5 ml-auto mb-12">
+        <div className="overflow-hidden flex flex-col items-center md:flex-row whitespace-nowrap justify-center md:justify-end gap-5 p-5 ml-auto mb-12">
           <LinkButton
             name="Take a look at my Resume"
-            link={"https://drive.google.com/file/d/1Ws9VBPS50wVBEFkEbvx9OTVMC8SDquwV/view?usp=sharing"}
+            link={
+              "https://drive.google.com/file/d/1Ws9VBPS50wVBEFkEbvx9OTVMC8SDquwV/view?usp=sharing"
+            }
             isMain={true}
           />
         </div>
-            
       </div>
       <ContactFooter />
     </main>
