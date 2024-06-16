@@ -33,7 +33,17 @@ export default function Header() {
               : "text-mid-grey hover:text-dark-grey"
           }
         >
-          Home
+          Accueil
+        </Link>
+        <Link
+          href="/skills"
+          className={
+            currentRoute === "/skills"
+              ? "text-dark-grey"
+              : "text-mid-grey hover:text-dark-grey"
+          }
+        >
+          Portfolio
         </Link>
         <Link
           href="/projects"
@@ -43,7 +53,7 @@ export default function Header() {
               : "text-mid-grey hover:text-dark-grey"
           }
         >
-          Projects
+          Projets
         </Link>
         <Link
           href="/aboutme"
@@ -53,7 +63,7 @@ export default function Header() {
               : "text-mid-grey hover:text-dark-grey whitespace-nowrap"
           }
         >
-          About Me
+          À propos
         </Link>
         <Link
           href="#contact"

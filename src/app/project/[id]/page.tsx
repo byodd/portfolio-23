@@ -63,10 +63,10 @@ export default function Page({ params }: { params: { id: string } }) {
           </span>
           <div className="flex flex-col md:flex-row w-full gap-10 md:gap-20">
             <Info title="Description" description={project.description} />
-            <Info title="Role in project" description={project.role} />
-            <Info title="Technical sheet" description={project.techStack} />
+            <Info title="Rôle dans le projet" description={project.role} />
+            <Info title="Technologies" description={project.techStack} />
             {project.collaborators && (
-              <Info title="Collaborators" description={project.collaborators} />
+              <Info title="Collaborateurs" description={project.collaborators} />
             )}
           </div>
         </div>

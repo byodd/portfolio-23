@@ -57,7 +57,7 @@ export default function Projects() {
       <div className="pt-36 w-full">
         <div className="w-full h-full mt-16 mb-64 flex flex-col md:flex-row p-8">
           <span className="font-semibold text-3xl whitespace-nowrap mx-24 pb-6 md:pb-0">
-            Who am I
+            Qui suis-je
           </span>
           <div className="font-medium text-2xl overflow-hidden md:border-l-2 md:border-dark-grey p-1 md:pl-16 md:mr-24">
             <motion.ul
@@ -68,17 +68,19 @@ export default function Projects() {
               ref={ref}
             >
               <motion.li variants={item}>
-                I&apos;m a <b>CS student</b> who&apos;s always loved creating
-                things. Ever since I got my first computer, I&apos;ve explored
-                everything from 3D modeling and game development to video
-                editing and digital art. Among these, it was coding that
-                captivated me the most
-                <br />I love turning ideas into sleek, user-friendly{" "}
-                <b>websites</b> and <b>applications</b>. My interests aren&apos;t
-                limited to web development, I enjoy diving into every aspect of{" "}
-                <b>computer science</b>. Working on <b>challenging projects</b>{" "}
-                with a positive team in a great environment is what I enjoy
-                most.
+                Je suis un <b>étudiant en informatique</b> qui a toujours aimé
+                créer des choses. Depuis que j&apos;ai eu mon premier
+                ordinateur, j&apos;ai tout exploré, de la modélisation 3D et du
+                développement de jeux à la création de vidéos et à l&apos;art
+                numérique. Parmi toutes ces activités, c&apos;est la
+                programmation qui m&apos;a le plus captivé.
+                <br />
+                J&apos;adore transformer des idées en <b>sites web</b> et{" "}
+                <b>applications</b> élégants et conviviaux. Mes intérêts ne se
+                limitent pas au développement web, j&apos;aime plonger dans tous
+                les aspects de l&apos;<b>informatique</b>. Travailler sur des{" "}
+                <b>projets stimulants</b> avec une équipe positive est ce que
+                j&apos;apprécie le plus.
               </motion.li>
             </motion.ul>
           </div>
@@ -86,7 +88,7 @@ export default function Projects() {
 
         <div className="w-full h-full mt-16 mb-64 flex flex-col md:flex-row p-8">
           <span className="font-semibold text-3xl whitespace-nowrap mx-24 pb-6 md:pb-0">
-            What I do
+            Que fais-je
           </span>
           <div className="font-medium text-2xl overflow-hidden md:border-l-2 md:border-dark-grey p-1 md:pl-16 md:mr-24">
             <motion.ul
@@ -97,18 +99,23 @@ export default function Projects() {
               ref={ref}
             >
               <motion.li variants={item}>
-                After earning my <b>French Baccalauréat</b> with a
-                specialization in Mathematics and Physics and achieving{" "}
-                <b>honors</b>, I enrolled in the <b>Bachelor of Science</b> in
-                Computer Science program at{" "}
-                <b>Claude Bernard University Lyon 1</b>
-                . <br />I devote considerable time to exploring a wide range of
-                topics outside of class, be it related to computer science or
-                spanning diverse fields from <b>marketing</b> to philosophy. I
-                continue to engage in <b>art</b>, channeling my creativity
-                through drawing, writing, and design creation. <br /> This broad
-                spectrum of interests not only enriches my understanding but
-                also complements my studies in computer science.
+                Après avoir obtenu mon <b>Baccalauréat </b> avec une
+                spécialisation en Mathématiques et Physique, je me suis inscrit
+                dans le programme de{" "}
+                <b>Bachelor Universitaire de Technologie</b> en informatique à
+                l&apos;
+                <b>Université Claude Bernard Lyon 1</b>.
+                <br />
+                Je consacre beaucoup de temps à explorer une large gamme de
+                sujets en dehors des cours, qu&apos;ils soient liés à
+                l&apos;informatique ou couvrant des domaines divers allant du{" "}
+                <b>marketing</b> à la philosophie. Je continue à m&apos;engager
+                dans l&apos;<b>art</b>, canalisant ma créativité à travers le
+                dessin, l&apos;écriture et la création de designs.
+                <br />
+                Ce large éventail d&apos;intérêts enrichit non seulement ma
+                compréhension mais complète également mes études en
+                informatique.
               </motion.li>
             </motion.ul>
           </div>
@@ -116,7 +123,7 @@ export default function Projects() {
 
         <div className="w-full h-full mt-16 mb-64 flex flex-col md:flex-row p-8">
           <span className="font-semibold text-3xl whitespace-nowrap mx-24 pb-6 md:pb-0">
-            My Skills
+            Ma stack technique
           </span>
           <div className="font-medium text-2xl flex flex-col md:flex-row gap-32 overflow-hidden md:border-l-2 md:border-dark-grey p-1 md:pl-16 md:mr-24">
             <motion.ul
@@ -127,7 +134,7 @@ export default function Projects() {
               ref={ref}
             >
               <motion.li className="mb-2" variants={item}>
-                Languages
+                Langages
               </motion.li>
               <motion.li variants={item}>
                 <ul className="font-normal text-lg [&>*]:pb-2 [&>*]:ml-4 list-disc">
@@ -135,6 +142,7 @@ export default function Projects() {
                   <li>SASS/SCSS</li>
                   <li>Javascript/Typescript</li>
                   <li>C</li>
+                  <li>C#</li>
                   <li>Python</li>
                   <li>PHP</li>
                   <li>Java</li>
@@ -149,7 +157,7 @@ export default function Projects() {
               ref={ref}
             >
               <motion.li className="mb-2" variants={item}>
-                Framworks/ Librairies/ Others
+                Frameworks/ Librairies/ Autres
               </motion.li>
               <motion.li className="flex flex-row gap-24" variants={item}>
                 <ul className="font-normal text-lg [&>*]:pb-2 [&>*]:ml-4 list-disc">
@@ -178,7 +186,7 @@ export default function Projects() {
         </div>
         <div className="overflow-hidden flex flex-col items-center md:flex-row whitespace-nowrap justify-center md:justify-end gap-5 p-5 ml-auto mb-12">
           <LinkButton
-            name="Take a look at my Resume"
+            name="Jeter un oeil à mon CV"
             link={
               "https://drive.google.com/file/d/1Ws9VBPS50wVBEFkEbvx9OTVMC8SDquwV/view?usp=sharing"
             }

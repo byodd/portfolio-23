@@ -51,7 +51,10 @@ export default function About() {
   });
   return (
     <div className="w-full h-full mt-16 mb-64 flex flex-col md:flex-row p-8">
-      <Link href="/aboutme" className="font-semibold text-3xl whitespace-nowrap mx-24 pb-6 overflow-hidden md:pb-0 hover:font-bold">
+      <Link
+        href="/aboutme"
+        className="font-semibold text-3xl whitespace-nowrap mx-24 pb-6 overflow-hidden md:pb-0 hover:font-bold"
+      >
         About me
       </Link>
       <div className="font-medium text-2xl overflow-hidden md:border-l-2 md:border-dark-grey p-1 md:pl-16 md:mr-24">
@@ -63,32 +66,27 @@ export default function About() {
           ref={ref}
         >
           <motion.li variants={item}>
-            Starting my tech journey with a knack for design, I dove into coding
+            En commençant mon parcours technologique avec un talent pour le
+            design, je me suis lancé dans la programmation.
           </motion.li>
           <motion.li variants={item}>
-            {" "}
-            throughout my Computer Science Bachelor&#39;s program.
+            Actuellement en deuxième année de BUT en informatique, j&apos;ai
+            appris en autodidacte au-delà de la salle de classe en
+            m&apos;attaquant à des projets logiciels et full-stack.
           </motion.li>
+          <motion.li variants={item}></motion.li>
           <motion.li variants={item}>
-            Currently in my second year, I&#39;ve self-taught beyond the
-            classroom,
-          </motion.li>
-          <motion.li variants={item}>
-            tackling software and full-stack projects.
-          </motion.li>
-          <motion.li variants={item}>
-            Now, with a better understanding of coding, combined with my love
-            for
-          </motion.li>
-          <motion.li variants={item}>
-            design, I&#39;m looking forward to what I can create next.
+            Maintenant, avec une meilleure compréhension de la programmation,
+            combinée à mon amour pour le design, j&apos;ai hâte de voir ce que
+            je peux créer de nouveau.
           </motion.li>
           <motion.li variants={item}>
             <br />
-            I&#39;m always ready to learn more and work on exciting projects.
+            Je suis toujours prêt à apprendre plus et à travailler sur des
+            projets passionnants.
           </motion.li>
           <motion.li variants={item}>
-            Let’s build something great together! 🚀
+            Construisons quelque chose de grand ensemble ! 🚀
           </motion.li>
         </motion.ul>
       </div>

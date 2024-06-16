@@ -31,14 +31,14 @@ export default function ContactFooter() {
           </div>
         </div>
         <div>
-          <span className="text-base">Quick Links</span>
+          <span className="text-base">Liens rapides</span>
           <div className="flex flex-row gap-3 text-xl md:text-3xl">
             <Link href="/" className="hover:underline">
-              Home
+              Accueil
             </Link>
             -
             <Link href="/projects" className="hover:underline">
-              Projects
+              Projets
             </Link>
             -
             <Link href="/contact" className="hover:underline">
@@ -47,7 +47,7 @@ export default function ContactFooter() {
           </div>
         </div>
         <div>
-          <span className="text-base">Socials</span>
+          <span className="text-base">Réseaux sociaux</span>
           <div className="flex flex-row gap-3 text-xl md:text-3xl">
             <Link
               target={"_blank"}
@@ -80,13 +80,13 @@ export default function ContactFooter() {
         <div>
           <span className="text-base">Extras</span>
           <div className="flex flex-row gap-3 text-xl md:text-3xl mb-36">
-          <Link
+            <Link
               target={"_blank"}
               rel={"noopener noreferrer"}
               href="https://drive.google.com/file/d/1Ws9VBPS50wVBEFkEbvx9OTVMC8SDquwV/view?usp=sharing"
               className="hover:underline"
             >
-              Resume
+              CV
             </Link>
             -
             <Link
@@ -95,10 +95,8 @@ export default function ContactFooter() {
               href="https://mail.google.com/mail/u/0/?fs=1&to=gatta.code@gmail.com&tf=cm"
               className="hover:underline"
             >
-              Send mail on gmail
+              Envoyer un mail
             </Link>
-
-            
           </div>
         </div>
       </div>
