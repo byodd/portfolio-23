@@ -15,7 +15,7 @@ export default function GonexaCard() {
     {
       title: "Collaborer",
       description:
-        "Travaillant avec l'équipe de développeurs et le pôle succès client, j'ai appris à coordonner efficacement les tâches, à échanger des retours constructifs et à assurer une communication fluide entre différents départements. Cette expérience a souligné l'importance des compétences interpersonnelles pour un travail d'équipe réussi.",
+        "Travaillant avec un autre stagiaire, j'ai appris à coordonner efficacement les tâches, à échanger des retours constructifs et à assurer une communication fluide entre différentes personnes. Cette expérience a souligné l'importance des compétences interpersonnelles pour un travail d'équipe réussi.",
       link: "/skill/collaborer",
     },
     {
@@ -27,7 +27,7 @@ export default function GonexaCard() {
     {
       title: "Optimiser",
       description:
-        "En développant des fonctionnalités avancées et en optimisant les modèles de données, j'ai amélioré les performances de l'application. J'ai également mis en place des systèmes de filtrage avancés et des interfaces utilisateur intuitives pour rendre l'application plus rapide et plus réactive, tout en garantissant la sécurité et la confidentialité des données.",
+        "En développant des fonctionnalités avancées et en réalisant un bon modèle de données, j'ai amélioré les performances de l'application. J'ai également mis en place des systèmes de filtrage avancés et des interfaces utilisateur intuitives pour rendre l'application plus rapide et plus réactive, tout en garantissant la sécurité et la confidentialité des données.",
       link: "/skill/optimiser",
     },
   ];
