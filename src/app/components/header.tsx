@@ -24,7 +24,7 @@ export default function Header() {
           <Image src={Logo} className="w-12" alt="logo" />
         </motion.div>
       </Link>
-      <div className="flex pl-5 md:ml-20 gap-8">
+      <div className="flex flex-wrap md:flex-nowrap pl-5 md:ml-20 gap-8">
         <Link
           href="/"
           className={
@@ -43,17 +43,17 @@ export default function Header() {
               : "text-mid-grey hover:text-dark-grey"
           }
         >
-          Portfolio
+          Compétences
         </Link>
         <Link
-          href="/projects"
+          href="/experiences"
           className={
-            currentRoute === "/projects"
+            currentRoute === "/experiences"
               ? "text-dark-grey"
               : "text-mid-grey hover:text-dark-grey"
           }
         >
-          Projets
+          Expériences
         </Link>
         <Link
           href="/aboutme"

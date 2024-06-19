@@ -57,7 +57,7 @@ export default function Projects() {
       <div className="pt-36 w-full">
         <div className="w-full h-full mt-16 mb-64 flex flex-col md:flex-row p-8">
           <span className="font-semibold text-3xl whitespace-nowrap mx-24 pb-6 md:pb-0">
-            Qui suis-je
+            Qui suis-je ?
           </span>
           <div className="font-medium text-2xl overflow-hidden md:border-l-2 md:border-dark-grey p-1 md:pl-16 md:mr-24">
             <motion.ul
@@ -88,7 +88,7 @@ export default function Projects() {
 
         <div className="w-full h-full mt-16 mb-64 flex flex-col md:flex-row p-8">
           <span className="font-semibold text-3xl whitespace-nowrap mx-24 pb-6 md:pb-0">
-            Que fais-je
+            Que fais-je ?
           </span>
           <div className="font-medium text-2xl overflow-hidden md:border-l-2 md:border-dark-grey p-1 md:pl-16 md:mr-24">
             <motion.ul

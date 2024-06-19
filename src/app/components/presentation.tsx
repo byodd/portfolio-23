@@ -21,7 +21,7 @@ export default function Presentation() {
   return (
     <div className="w-full h-screen flex flex-col">
       <Image
-        className="w-2/3 md:w-1/3 absolute top-16 md:top-10 right-10 z-0 rotate-15"
+        className="w-2/3 md:w-1/3 absolute top-36 md:top-10 right-10 z-0 rotate-15"
         src={Portrait}
         alt="portrait"
         onLoad={() => setIsLoaded(true)}

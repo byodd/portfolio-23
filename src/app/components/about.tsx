@@ -53,9 +53,9 @@ export default function About() {
     <div className="w-full h-full mt-16 mb-64 flex flex-col md:flex-row p-8">
       <Link
         href="/aboutme"
-        className="font-semibold text-3xl whitespace-nowrap mx-24 pb-6 overflow-hidden md:pb-0 hover:font-bold"
+        className="font-semibold text-3xl mx-24 pb-6 overflow-hidden md:pb-0"
       >
-        About me
+        Qui suis-je?
       </Link>
       <div className="font-medium text-2xl overflow-hidden md:border-l-2 md:border-dark-grey p-1 md:pl-16 md:mr-24">
         <motion.ul
@@ -66,19 +66,19 @@ export default function About() {
           ref={ref}
         >
           <motion.li variants={item}>
-            En commençant mon parcours technologique avec un talent pour le
+            En commençant mon parcours technologique avec une passion pour le
             design, je me suis lancé dans la programmation.
           </motion.li>
           <motion.li variants={item}>
             Actuellement en deuxième année de BUT en informatique, j&apos;ai
-            appris en autodidacte au-delà de la salle de classe en
-            m&apos;attaquant à des projets logiciels et full-stack.
+            aussi appris au-delà de la salle de classe en
+            m&apos;attaquant à des projets web et logiciels.
           </motion.li>
           <motion.li variants={item}></motion.li>
           <motion.li variants={item}>
             Maintenant, avec une meilleure compréhension de la programmation,
             combinée à mon amour pour le design, j&apos;ai hâte de voir ce que
-            je peux créer de nouveau.
+            je peux créer de nouveau et d&apos;innovant.
           </motion.li>
           <motion.li variants={item}>
             <br />
