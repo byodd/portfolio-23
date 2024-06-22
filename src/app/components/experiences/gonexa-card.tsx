@@ -19,13 +19,13 @@ export default function GonexaCard() {
       link: "/skill/collaborer",
     },
     {
-      title: "Gérer",
+      title: "Conduire",
       description:
         "J'ai appris à appréhender les besoins du client, à mettre en place des outils de gestion de projet et à suivre les phases de développement de manière structurée. L'organisation et la gestion des tâches via des méthodologies agiles, ainsi que l'utilisation d'outils comme Azure DevOps, ont été cruciales pour la réussite du projet.",
-      link: "/skill/gerer",
+      link: "/skill/conduire",
     },
     {
-      title: "Optimiser",
+      title: "Optimiser & Gérer",
       description:
         "En développant des fonctionnalités avancées et en réalisant un bon modèle de données, j'ai amélioré les performances de l'application. J'ai également mis en place des systèmes de filtrage avancés et des interfaces utilisateur intuitives pour rendre l'application plus rapide et plus réactive, tout en garantissant la sécurité et la confidentialité des données.",
       link: "/skill/optimiser",
