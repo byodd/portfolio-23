@@ -41,8 +41,8 @@ export default function ContactFooter() {
               Projets
             </Link>
             -
-            <Link href="/contact" className="hover:underline">
-              Contact
+            <Link href="/experiences" className="hover:underline">
+              Experiences
             </Link>
           </div>
         </div>
@@ -95,7 +95,7 @@ export default function ContactFooter() {
               href="https://mail.google.com/mail/u/0/?fs=1&to=gatta.code@gmail.com&tf=cm"
               className="hover:underline"
             >
-              Envoyer un mail
+              Envoyer un mail via Gmail
             </Link>
           </div>
         </div>
