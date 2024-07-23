@@ -57,7 +57,7 @@ export default function Presentation() {
               target={"_blank"}
               rel={"noopener noreferrer"}
               className="box border border-dark-grey hover:border-white rounded-full text-xs md:text-base flex flex-row px-4 md:px-8 pt-3.5 mt-6 pb-4 duration-300 hover:bg-white hover:text-dark-grey"
-              href="https://drive.google.com/file/d/1Ws9VBPS50wVBEFkEbvx9OTVMC8SDquwV/view?usp=sharing"
+              href="https://drive.google.com/file/d/11RBj13EX7f4bnYdMgVMjvrdRAagFufzx/view?usp=drive_link"
             >
               Voir mon CV
             </Link>

@@ -83,7 +83,7 @@ export default function ContactFooter() {
             <Link
               target={"_blank"}
               rel={"noopener noreferrer"}
-              href="https://drive.google.com/file/d/1Ws9VBPS50wVBEFkEbvx9OTVMC8SDquwV/view?usp=sharing"
+              href="https://drive.google.com/file/d/11RBj13EX7f4bnYdMgVMjvrdRAagFufzx/view?usp=drive_link"
               className="hover:underline"
             >
               CV

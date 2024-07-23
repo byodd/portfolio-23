@@ -188,7 +188,7 @@ export default function Projects() {
           <LinkButton
             name="Jeter un oeil à mon CV"
             link={
-              "https://drive.google.com/file/d/1Ws9VBPS50wVBEFkEbvx9OTVMC8SDquwV/view?usp=sharing"
+              "https://drive.google.com/file/d/11RBj13EX7f4bnYdMgVMjvrdRAagFufzx/view?usp=drive_link"
             }
             isMain={true}
           />
